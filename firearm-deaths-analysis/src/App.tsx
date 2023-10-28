@@ -1,23 +1,16 @@
-import TextBlock from "./components/TextBlock"
-import TitleBlock from "./components/TitleBlock"
-import { mainPageTypings } from "./typings/mainPageTypings"
+import Home from "./Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import "./index.css"
 
 function App() {
 
   return (
     <>
-      <TitleBlock />
-      <div className="shadow-lg mx-[20vw] my-[2.75vh] bg-slate-100 ">
-        {
-          mainPageTypings.map(e => {
-            return (
-              <TextBlock title={e.title} textObj={e.textObj} />
-            )
-          })
-        }
-      </div>
+      <BrowserRouter > {/*basename={process.env.PUBLIC_URL} to run ongithub pages*/}
+      <Routes>
+        <Route path="" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
