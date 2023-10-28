@@ -21,5 +21,4 @@ export interface ParagraphBlockInterface {
 export interface MenuItemInterface {
     title: string;
     path: string;
-    element: React.ReactElement;
 }
