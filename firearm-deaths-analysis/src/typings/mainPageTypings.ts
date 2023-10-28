@@ -1,32 +1,47 @@
-import { ContextBlockTextInterface } from "../interfaces/interface";
+import { ParagraphBlockInterface, TitleBlockInterface, /*ContextBlockTextInterface*/ } from "../interfaces/interface";
 
-export const mainPageTypings:  ContextBlockTextInterface[] = [
+export const titleTypings: TitleBlockInterface[] = [
     {
-        title: "asdas",
-        textObj: [
-            {
-            topic: "string",
-            brief: "string"
-            }
-        ]
+        title: "COMPARAÇÃO DE MORTES POR ARMAS DE FOGO ENTRE BRASIL E ESTADOS UNIDOS",
+        subTitle: "Análise do TDE e a relação do número de mortes por arma de fogo entre Brasil e EUA e suas nuances"
     },
-    {
-        title: "asdas",
-        textObj: [
-            {
-            topic: "string",
-            brief: "string"
-            }
-        ]
-    },
-    {
-        title: "asdas",
-        textObj: [
-            {
-            topic: "string",
-            brief: "string"
-            }
-        ]
-    },
-
 ]
+
+export const paragraphTypings: ParagraphBlockInterface[] = [
+    {
+        title: "Correlação entre o número de óbitos por arma de fogo",
+        paragraph: "Aqui você encontrará uma análise detalhada da relação entre óbitos por arma de fogo no Brasil e nos Estados Unidos"
+            
+    },
+]
+
+// export const mainPageTypings:  ContextBlockTextInterface[] = [
+//     {
+//         title: "asdas",
+//         textObj: [
+//             {
+//             topic: "string",
+//             brief: "string"
+//             }
+//         ]
+//     },
+//     {
+//         title: "asdas",
+//         textObj: [
+//             {
+//             topic: "string",
+//             brief: "string"
+//             }
+//         ]
+//     },
+//     {
+//         title: "asdas",
+//         textObj: [
+//             {
+//             topic: "string",
+//             brief: "string"
+//             }
+//         ]
+//     },
+
+// ]

@@ -8,7 +8,12 @@ export interface ContextBlockTextInterface {
     textObj: ContextBlockInterface[];
 }
 
+export interface TitleBlockInterface {
+	title: string;
+    subTitle: string;
+}
+
 export interface ParagraphBlockInterface {
-	title?: string;
+	title: string;
     paragraph: string;
 }
