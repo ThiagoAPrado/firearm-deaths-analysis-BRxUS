@@ -17,3 +17,9 @@ export interface ParagraphBlockInterface {
 	title: string;
     paragraph: string;
 }
+
+export interface MenuItemInterface {
+    title: string;
+    path: string;
+    element: React.ReactElement;
+}
