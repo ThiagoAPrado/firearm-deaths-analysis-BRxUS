@@ -39,3 +39,9 @@ a:visited {
 a:visited:hover {
   color: rgb(140, 118, 163)
 }
+
+ul li {
+  list-style: inside;
+  color: #ececec;
+  font-weight: bold;
+}

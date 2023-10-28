@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="https://thiagoaprado.github.io/firearm-deaths-analysis-BRxUS"> {/*basename={process.env.PUBLIC_URL} to run ongithub pages*/}
+      <BrowserRouter> {/*basename={process.env.PUBLIC_URL} to run ongithub pages*/}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/docs" element={<Docs />} />

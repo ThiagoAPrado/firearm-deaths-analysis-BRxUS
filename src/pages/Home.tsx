@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       <PageStructure >
-        <div className="shadow-lg px-[2.5vw] py-[3vh] mx-[5vw] text-center mt-[5vh] bg-[white] md:mx-[10vw] lg:mx-[15vw] xl:mx-[20vw]">
+        <div className="shadow-lg px-[2.5vw] py-[3vh] mx-[5vw] text-center mt-[2.5vh] bg-[white] md:mx-[10vw] lg:mx-[15vw] xl:mx-[20vw]">
           {
             paragraphTypings.map(e => {
               return (

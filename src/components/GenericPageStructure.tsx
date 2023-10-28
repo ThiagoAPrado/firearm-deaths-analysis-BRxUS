@@ -25,7 +25,7 @@ const PageStructure = ({children}: { children:any }) => {
         <>
             <TitleBlock title={titleTypings.title} subTitle={titleTypings.subTitle} />
             <InterestMenu menus={menus}/>
-            <div className="-mt-10">
+            <div>
                 {children}
             </div>
             <FooterBlock />

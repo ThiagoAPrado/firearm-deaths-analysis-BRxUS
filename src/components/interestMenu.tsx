@@ -11,7 +11,7 @@ const interestMenu = ({ menus }: { menus: MenuItemInterface[] }) => {
             {
                 menus.map((e) => {
                     return (
-                        <button className={`flex justify-center items-center h-[2vw] px-[0.9vw] text-[1vw] tracking-wider font-bold rounded-[0_0_0.4vw_.4vw] shadow-bo cursor-pointer ${(location.pathname == e.path ? 'bg-orange-500 hover:bg-orange-500' : 'bg-slate-800 hover:bg-slate-600')} text-white `}
+                        <button className={`flex justify-center items-center px-[0.9vw] text-[1vw] tracking-wider font-bold rounded-[0_0_0.4vw_.4vw] shadow-bo cursor-pointer ${(location.pathname == e.path ? 'bg-orange-500 hover:bg-orange-500' : 'bg-slate-800 hover:bg-slate-600')} text-white `}
                             key={"navigate-btn-" + e.title}
                             onClick={() => { navigate(e.path) }}
                         >{e.title}</button>
