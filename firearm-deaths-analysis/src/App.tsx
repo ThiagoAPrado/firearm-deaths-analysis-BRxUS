@@ -1,4 +1,4 @@
-import ContextTextBlock from "./components/ContextTextBlock"
+import TextBlock from "./components/TextBlock"
 import TitleBlock from "./components/TitleBlock"
 import { mainPageTypings } from "./typings/mainPageTypings"
 
@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <TitleBlock />
-      <div className="m-20 p-20 bg-slate-200">
+      <div className="shadow-lg mx-[20vw] my-[2.75vh] bg-slate-100 ">
         {
           mainPageTypings.map(e => {
             return (
-              <ContextTextBlock title={e.title} textObj={e.textObj} />
+              <TextBlock title={e.title} textObj={e.textObj} />
             )
           })
         }
