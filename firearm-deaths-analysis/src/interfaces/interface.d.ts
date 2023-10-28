@@ -22,3 +22,15 @@ export interface MenuItemInterface {
     title: string;
     path: string;
 }
+
+export interface ReferenceItemInterface {
+    nameTitle: string;
+    link: string;
+    access: string;
+    accessable: boolean?;
+}
+
+export interface ReferenceBlockInterface {
+    blockTitle: string;
+    references: ReferenceItemInterface[];
+}
