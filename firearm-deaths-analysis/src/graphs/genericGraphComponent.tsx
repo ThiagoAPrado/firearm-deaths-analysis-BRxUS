@@ -7,7 +7,7 @@ const GenericGraphComponent = ({ graphs, title }: { graphs: frameGraphs, title: 
 			<h4 className="text-[1.2rem] font-bold text-slate-800 mt-[5vh] md:text-[1.3rem] lg:text-[1.4rem] xl:text-[1.5rem]">{title}</h4>
 			<iframe
 				src={baseFrameUrl + graphs}
-				className="w-[calc(100%+16px)] h-[60vh]"
+				className="w-[calc(100%+18px)] h-[60vh]"
 			/>
 		</div>
 
