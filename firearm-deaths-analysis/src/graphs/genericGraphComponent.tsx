@@ -1,14 +1,17 @@
-import { frameGraphs } from "./graphConsts";
+import { frameGraphs, baseFrameUrl } from "./graphConsts";
 
-export default function genericGraphComponent(graph: frameGraphs){
-    return (
-        <div>
-            <iframe
-                src={"baseFrameUrl" + graph}
-                width="600"
-                height="400"
-            />
-        </div>
-        
-    )
+const GenericGraphComponent = ({ graphs, title }: { graphs: frameGraphs, title: string }) => {
+	
+	return (
+		<div className="flex flex-col justify-center items-center mx-[5vw] md:mx-[10vw] lg:mx-[15vw] xl:mx-[20vw]">
+			<h4 className="text-[1.2rem] font-bold text-slate-800 mt-[5vh] md:text-[1.3rem] lg:text-[1.4rem] xl:text-[1.5rem]">{title}</h4>
+			<iframe
+				src={baseFrameUrl + graphs}
+				className="w-[calc(100%+16px)] h-[60vh]"
+			/>
+		</div>
+
+	)
 }
+
+export default GenericGraphComponent
