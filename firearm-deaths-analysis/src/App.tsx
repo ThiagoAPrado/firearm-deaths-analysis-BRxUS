@@ -1,7 +1,7 @@
 import Docs from "./pages/Docs";
 import Home from "./pages/Home"
+import References from "./pages/References";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Related from "./pages/Related";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/docs" element={<Docs />} />
-          <Route path="/related" element={<Related />} />
+          <Route path="/referencias" element={<References />} />
         </Routes>
       </BrowserRouter>
     </>
