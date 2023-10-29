@@ -15,7 +15,7 @@ const menus: MenuItemInterface[] = [
         path: '/docs'
     },
     {
-        title: "REFERENCIAS",
+        title: "REFERÊNCIAS",
         path: '/referencias'
     }
 ]
