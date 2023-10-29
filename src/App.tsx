@@ -8,11 +8,11 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}> {/*basename={process.env.PUBLIC_URL} to run ongithub pages*/}
+      <BrowserRouter > {/*basename={process.env.PUBLIC_URL} to run ongithub pages*/}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/docs" element={<Docs />} />
-          <Route path="/referencias" element={<References />} />
+          <Route path="/firearm-deaths-analysis-BRxUS/" element={<Home />} />
+          <Route path="/firearm-deaths-analysis-BRxUS/docs" element={<Docs />} />
+          <Route path="/firearm-deaths-analysis-BRxUS/referencias" element={<References />} />
         </Routes>
       </BrowserRouter>
     </>

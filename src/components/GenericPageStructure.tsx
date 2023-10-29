@@ -8,15 +8,15 @@ import InterestMenu from "./interestMenu"
 const menus: MenuItemInterface[] = [
     {
         title: "HOME",
-        path: '/'
+        path: '/firearm-deaths-analysis-BRxUS/'
     },
     {
         title: "DOCS",
-        path: '/docs'
+        path: '/firearm-deaths-analysis-BRxUS/docs'
     },
     {
         title: "REFERÊNCIAS",
-        path: '/referencias'
+        path: '/firearm-deaths-analysis-BRxUS/referencias'
     }
 ]
 
