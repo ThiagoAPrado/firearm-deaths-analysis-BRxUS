@@ -6,13 +6,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 
+  const basePath = '' //'/firearm-deaths-analysis-BRxUS/';
+
   return (
     <>
-      <BrowserRouter > {/*basename={process.env.PUBLIC_URL} to run ongithub pages*/}
+      <BrowserRouter >
         <Routes>
-          <Route path="/firearm-deaths-analysis-BRxUS/" element={<Home />} />
-          <Route path="/firearm-deaths-analysis-BRxUS/docs" element={<Docs />} />
-          <Route path="/firearm-deaths-analysis-BRxUS/referencias" element={<References />} />
+          <Route path={basePath} element={<Home />} />
+          <Route path={basePath + 'docs'} element={<Docs />} />
+          <Route path={basePath + 'referencias'} element={<References />} />
         </Routes>
       </BrowserRouter>
     </>
