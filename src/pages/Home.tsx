@@ -22,10 +22,10 @@ function Home() {
           }
 
         </div>
-        <GenericGraphComponent title="BR x EUA" graphs={frameGraphs.USxBR}/>
-        <GenericGraphComponent title="BR - Estados" graphs={frameGraphs.BR_STATES}/>
-        <GenericGraphComponent title="EUA - Estados" graphs={frameGraphs.US_STATES}/>
-        <GenericGraphComponent title="SÃO PAULO X CALIFÓRNIA" graphs={frameGraphs.USxBR_STATES}/>
+        <GenericGraphComponent title="BR x EUA" graphs={frameGraphs.USxBR} altText="Brasil e Estados Unidos "/>
+        <GenericGraphComponent title="BR - Estados" graphs={frameGraphs.BR_STATES} altText="todos os estados do Brasil" />
+        <GenericGraphComponent title="EUA - Estados" graphs={frameGraphs.US_STATES} altText="todos os estados dos Estados Unidos"/>
+        <GenericGraphComponent title="SÃO PAULO X CALIFÓRNIA" graphs={frameGraphs.USxBR_STATES} altText="São Paulo e Califórnia"/>
       </PageStructure>
     </>
   )

@@ -24,8 +24,11 @@ const PageStructure = ({children}: { children:any }) => {
     return (
         <>
             <TitleBlock title={titleTypings.title} subTitle={titleTypings.subTitle} />
-            <InterestMenu menus={menus}/>
             <div>
+                <a href="#main">Skip to main content</a>
+            </div>
+            <InterestMenu menus={menus}/>
+            <div id="main">
                 {children}
             </div>
             <FooterBlock />
