@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export interface ContextBlockInterface {
 	topic: string;
     brief: string;
@@ -16,6 +17,7 @@ export interface TitleBlockInterface {
 export interface ParagraphBlockInterface {
 	title: string;
     paragraph: string;
+    children: any | undefined | null;
 }
 
 export interface MenuItemInterface {
@@ -33,4 +35,18 @@ export interface ReferenceItemInterface {
 export interface ReferenceBlockInterface {
     blockTitle: string;
     references: ReferenceItemInterface[];
+}
+
+export interface SocialsLink {
+    name: string,
+    nameAt: string
+    link: string
+    icon: JSX.Element
+}
+
+export interface SocialCardInterface {
+    imgUrl: string
+    name: string
+    description: string
+    socials: SocialsLink[]
 }

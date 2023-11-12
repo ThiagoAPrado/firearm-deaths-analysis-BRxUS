@@ -5,34 +5,37 @@ import FooterBlock from "./FooterBlock"
 import TitleBlock from "./TitleBlock"
 import InterestMenu from "./interestMenu"
 
-const menus: MenuItemInterface[] = [
-	{
-		title: "HOME",
-		path: '/'
-	},
-	{
-		title: "DOCS",
-		path: '/docs'
-	},
-	{
-		title: "REFERÊNCIAS",
-		path: '/referencias'
-	},
-	{
-		title: "CONTATO",
-		path: '/contato'
-	},
-	{
-		title: "CONHEÇA-NOS",
-		path: '/conheca_nos'
-	}
+const menus: MenuItemInterface[][] = [
+	[
+		{
+			title: "HOME",
+			path: '/'
+		},
+		{
+			title: "DOCS",
+			path: '/docs'
+		},
+		{
+			title: "REFERÊNCIAS",
+			path: '/referencias'
+		}
+	],
+	[
+		{
+			title: "CONTATO",
+			path: '/contato'
+		},
+		{
+			title: "SOBRE NÓS",
+			path: '/sobre'
+		}
+	]
 ]
 
 const PageStructure = ({ children }: { children: any }) => {
 	return (
 		<>
 			<TitleBlock title={titleTypings.title} subTitle={titleTypings.subTitle} />
-
 			<InterestMenu menus={menus} />
 
 			<main id="main">

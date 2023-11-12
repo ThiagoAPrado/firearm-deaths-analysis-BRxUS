@@ -7,41 +7,9 @@ export const titleTypings: TitleBlockInterface =
     }
 
 
-export const paragraphTypings: ParagraphBlockInterface[] = [
+export const paragraphTypings: ParagraphBlockInterface = 
     {
         title: "Correlação entre o número de óbitos por arma de fogo",
-        paragraph: "Aqui você encontrará uma análise detalhada da relação entre óbitos por arma de fogo no Brasil e nos Estados Unidos."
-            
-    },
-]
-
-// export const mainPageTypings:  ContextBlockTextInterface[] = [
-//     {
-//         title: "asdas",
-//         textObj: [
-//             {
-//             topic: "string",
-//             brief: "string"
-//             }
-//         ]
-//     },
-//     {
-//         title: "asdas",
-//         textObj: [
-//             {
-//             topic: "string",
-//             brief: "string"
-//             }
-//         ]
-//     },
-//     {
-//         title: "asdas",
-//         textObj: [
-//             {
-//             topic: "string",
-//             brief: "string"
-//             }
-//         ]
-//     },
-
-// ]
+        paragraph: "Aqui você encontrará uma análise detalhada da relação entre óbitos por arma de fogo no Brasil e nos Estados Unidos.",
+        children: null
+    };
