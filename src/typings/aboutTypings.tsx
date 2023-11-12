@@ -23,7 +23,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
         link: "https://www.linkedin.com/in/guilherme-dib-da-silva-50288523b/",
       },
       {
-        name: "Curriculum Lattes",
+        name: "CnpqLattes",
         nameAt: "3047829595983824",
         icon: <GlassSvg />,
         link: "http://lattes.cnpq.br/3047829595983824",
@@ -48,7 +48,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
         link: "https://www.linkedin.com/in/kadish-bernardo/",
       },
       {
-        name: "Curriculum Lattes",
+        name: "CnpqLattes",
         nameAt: "",
         icon: <GlassSvg />,
         link: "",
@@ -73,7 +73,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
         link: "https://www.linkedin.com/in/larissa-sena-a5b065192/",
       },
       {
-        name: "Curriculum Lattes",
+        name: "CnpqLattes",
         nameAt: "",
         icon: <GlassSvg />,
         link: "",
@@ -98,7 +98,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
         link: "https://www.linkedin.com/in/murilo-mendes-santo-sardão-b9a532239/",
       },
       {
-        name: "Curriculum Lattes",
+        name: "CnpqLattes",
         nameAt: "",
         icon: <GlassSvg />,
         link: "",
@@ -123,7 +123,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
         link: "https://www.linkedin.com/in/thiagoaprado",
       },
       {
-        name: "Curriculum Lattes",
+        name: "CnpqLattes",
         nameAt: "9785326840091327",
         icon: <GlassSvg />,
         link: "http://lattes.cnpq.br/9785326840091327",
@@ -148,7 +148,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
         link: "https://www.linkedin.com/in/victor-eduardo-rodrigues-de-abreu-e-silva-b9abb3227/",
       },
       {
-        name: "Curriculum Lattes",
+        name: "CnpqLattes",
         nameAt: "6930521779437025",
         icon: <GlassSvg />,
         link: "http://lattes.cnpq.br/6930521779437025",
