@@ -93,7 +93,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
       },
       {
         name: "LinkedIn",
-        nameAt: "Murilo Mendes Santo Sardão",
+        nameAt: "Murilo M S Sardão",
         icon: <LinkedinSvg />,
         link: "https://www.linkedin.com/in/murilo-mendes-santo-sardão-b9a532239/",
       },
@@ -143,7 +143,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
       },
       {
         name: "LinkedIn",
-        nameAt: "Victor Eduardo Rodrigues de Abreu e Silva",
+        nameAt: "Victor Eduardo R A e Silva",
         icon: <LinkedinSvg />,
         link: "https://www.linkedin.com/in/victor-eduardo-rodrigues-de-abreu-e-silva-b9abb3227/",
       },
