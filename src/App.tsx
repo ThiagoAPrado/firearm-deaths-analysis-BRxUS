@@ -6,11 +6,9 @@ import MeetUs from "./pages/MeetUs";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./index.css"
+import { basePath } from "./constants";
 
 function App() {
-
-  const basePath = '' //'/firearm-deaths-analysis-BRxUS/';
-
   return (
     <>
       <BrowserRouter >
@@ -19,7 +17,7 @@ function App() {
           <Route path={basePath + 'docs'} element={<Docs />} />
           <Route path={basePath + 'referencias'} element={<References />} />
           <Route path={basePath + 'contato'} element={<Contact />} />
-          <Route path={basePath + 'conheca_nos'} element={<MeetUs />} />
+          <Route path={basePath + 'sobre'} element={<MeetUs />} />
         </Routes>
       </BrowserRouter>
     </>

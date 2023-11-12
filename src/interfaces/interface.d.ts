@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export interface ContextBlockInterface {
 	topic: string;
     brief: string;
@@ -16,6 +17,7 @@ export interface TitleBlockInterface {
 export interface ParagraphBlockInterface {
 	title: string;
     paragraph: string;
+    children: any | undefined | null;
 }
 
 export interface MenuItemInterface {
