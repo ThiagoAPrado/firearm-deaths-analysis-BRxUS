@@ -36,3 +36,17 @@ export interface ReferenceBlockInterface {
     blockTitle: string;
     references: ReferenceItemInterface[];
 }
+
+export interface SocialsLink {
+    name: string,
+    nameAt: string
+    link: string
+    icon: JSX.Element
+}
+
+export interface SocialCardInterface {
+    imgUrl: string
+    name: string
+    description: string
+    socials: SocialsLink[]
+}
