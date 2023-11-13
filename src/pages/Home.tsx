@@ -1,7 +1,7 @@
 import { paragraphTypings } from "../typings/mainPageTypings"
 
 import TextBlock from "../components/TextBlock"
-import GenericGraphComponent from "../components/graphs/genericGraphComponent"
+import GenericGraphComponent from "../components/Graphs/genericGraphComponent"
 
 import "../index.css"
 import PageStructure from "../components/GenericPageStructure"

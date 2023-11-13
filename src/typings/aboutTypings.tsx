@@ -8,7 +8,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
     imgUrl: "https://avatars.githubusercontent.com/u/104111332?v=4",
     name: "Guilherme Dib da Silva",
     description:
-      "Desenvolvedor FullStack estudante de ciencia da computacao (4 semestre) na universidade catolica de santos",
+      "Desenvolvedor FullStack | Estudante de Ciência da Computação na Universidade Católica de Santos",
     socials: [
       {
         name: "Github",
@@ -33,7 +33,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
   {
     imgUrl: "https://avatars.githubusercontent.com/u/103036731?v=4",
     name: "Kadish Bernardo Ribeiro da Silva",
-    description: "xxx",
+    description: "Estagiário | Estudante de Ciência da Computação | Estudante Pesquisador na Área de análise de Dados.",
     socials: [
       {
         name: "Github",
@@ -49,16 +49,16 @@ export const socialCardsTypings: SocialCardInterface[] = [
       },
       {
         name: "CnpqLattes",
-        nameAt: "",
+        nameAt: "8382501481130783",
         icon: <GlassSvg />,
-        link: "",
+        link: "http://lattes.cnpq.br/8382501481130783",
       },
     ],
   },
   {
-    imgUrl: "https://avatars.githubusercontent.com/u/114711381?v=4",
+    imgUrl: "https://media.licdn.com/dms/image/D4D03AQEUSPJHuM3Pxw/profile-displayphoto-shrink_200_200/0/1672064560439?e=1705536000&v=beta&t=nBJBxBf2p9ostGw5qt6kFCcxvRt7-WS-N29sJekXcD8",
     name: "Larissa Sena Peirera",
-    description: "xxx",
+    description: "Empreendedora, estudante 4° semestre ciência da computação Universidade Católica de Santos, metodologias ágeis, neurociências, gestão de projetos e negócios, e-commerce.",
     socials: [
       {
         name: "Github",
@@ -74,16 +74,16 @@ export const socialCardsTypings: SocialCardInterface[] = [
       },
       {
         name: "CnpqLattes",
-        nameAt: "",
+        nameAt: "1702821393154174",
         icon: <GlassSvg />,
-        link: "",
+        link: "http://lattes.cnpq.br/1702821393154174",
       },
     ],
   },
   {
     imgUrl: "https://avatars.githubusercontent.com/u/99672109?v=4",
     name: "Murilo Mendes Santo Sardão",
-    description: "xxx",
+    description: "Desenvolvedor Back-end Python e MySQL. Cursando Ciência da Computação - 4° Semestre. Universidade Católica de Santos.",
     socials: [
       {
         name: "Github",
@@ -93,22 +93,22 @@ export const socialCardsTypings: SocialCardInterface[] = [
       },
       {
         name: "LinkedIn",
-        nameAt: "Murilo Mendes Santo Sardão",
+        nameAt: "Murilo M S Sardão",
         icon: <LinkedinSvg />,
         link: "https://www.linkedin.com/in/murilo-mendes-santo-sardão-b9a532239/",
       },
       {
         name: "CnpqLattes",
-        nameAt: "",
+        nameAt: "7560500287243504",
         icon: <GlassSvg />,
-        link: "",
+        link: "http://lattes.cnpq.br/7560500287243504",
       },
     ],
   },
   {
     imgUrl: "https://avatars.githubusercontent.com/u/103077237?v=4",
     name: "Thiago de Andrade Prado",
-    description: "xxx",
+    description: "Desenvolvedor Front-end ReactJS & TS e MySQL. Cursando Ciência da Computação - 4° Semestre. Universidade Católica de Santos.",
     socials: [
       {
         name: "Github",
@@ -131,9 +131,9 @@ export const socialCardsTypings: SocialCardInterface[] = [
     ],
   },
   {
-    imgUrl: "https://avatars.githubusercontent.com/u/117671474?v=4",
+    imgUrl: "https://media.licdn.com/dms/image/D4D03AQHtrllhutIofQ/profile-displayphoto-shrink_800_800/0/1699833052376?e=1705536000&v=beta&t=NqtTaGKeHawUZmV3hFGuG-0gYcIKvghM5-IqvzEEF8U",
     name: "Victor Eduardo Rodrigues de Abreu e Silva",
-    description: "xxx",
+    description: "Desenvolvedor BackEnd; JAVA, Python e C; estudante do 4º semestre de Ciência da Computação na Universidade Católica de Santos.",
     socials: [
       {
         name: "Github",
@@ -143,7 +143,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
       },
       {
         name: "LinkedIn",
-        nameAt: "Victor Eduardo Rodrigues de Abreu e Silva",
+        nameAt: "Victor Eduardo R A e Silva",
         icon: <LinkedinSvg />,
         link: "https://www.linkedin.com/in/victor-eduardo-rodrigues-de-abreu-e-silva-b9abb3227/",
       },
