@@ -8,7 +8,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
     imgUrl: "https://avatars.githubusercontent.com/u/104111332?v=4",
     name: "Guilherme Dib da Silva",
     description:
-      "Desenvolvedor FullStack estudante de ciencia da computacao (4 semestre) na universidade catolica de santos",
+      "Desenvolvedor FullStack | Estudante de Ciência da Computação na Universidade Católica de Santos",
     socials: [
       {
         name: "Github",
@@ -33,7 +33,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
   {
     imgUrl: "https://avatars.githubusercontent.com/u/103036731?v=4",
     name: "Kadish Bernardo Ribeiro da Silva",
-    description: "Estagiário | Estudante de Ciência da Computação | Estudante Pesquisador na Área de análise de Dados",
+    description: "Estagiário | Estudante de Ciência da Computação | Estudante Pesquisador na Área de análise de Dados.",
     socials: [
       {
         name: "Github",
@@ -58,7 +58,7 @@ export const socialCardsTypings: SocialCardInterface[] = [
   {
     imgUrl: "https://media.licdn.com/dms/image/D4D03AQEUSPJHuM3Pxw/profile-displayphoto-shrink_200_200/0/1672064560439?e=1705536000&v=beta&t=nBJBxBf2p9ostGw5qt6kFCcxvRt7-WS-N29sJekXcD8",
     name: "Larissa Sena Peirera",
-    description: "Empreendedora, estudante 4° semestre ciência da computação Universidade Católica de Santos, metodologias ágeis, neurociências, gestão de projetos e negócios, e-commerce",
+    description: "Empreendedora, estudante 4° semestre ciência da computação Universidade Católica de Santos, metodologias ágeis, neurociências, gestão de projetos e negócios, e-commerce.",
     socials: [
       {
         name: "Github",
