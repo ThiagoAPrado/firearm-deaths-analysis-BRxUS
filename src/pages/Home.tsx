@@ -23,9 +23,11 @@ function Home() {
         <GenericGraphComponent title="SÃO PAULO X CALIFÓRNIA" graphs={frameGraphs.USxBR_STATES} altText="São Paulo e Califórnia" />
         <ContentBox>
           <h1 className="text-[1.4rem] font-bold text-slate-800 md:text-[1.5rem] lg:text-[1.6rem] xl:text-[1.7rem]">Conclusão</h1>
-          <span className="text-[1.2rem] text-slate-800 md:text-[1.3rem] lg:text-[1.4rem] xl:text-[1.5rem]" aria-label="Conclusão">
-            A partir da manipulação dos dados e consequente geração dos gráficos, é possível observar que, mesmo que o Brasil não disponha de uma cultura armamentista forte como a dos EUA, ele apresenta ainda muito mais registros de óbitos por armas de fogo entre os anos de 1999 e 2019 que o outro país. Portanto, pode-se concluir inicialmente que a facilitação no acesso às armas de fogo a civis não representa o único fator responsável para essa diferença na quantidade de mortes causadas por armas de fogo entre as nações estudadas. Embora as pesquisas, estudos e análises aqui realizadas não tenham resultado em conclusões tão assertivas a respeito do tema, elas permitiram, no entanto, a elaboração de gráficos claros e precisos e a consequente disponibilização desses para visualização pública em uma aplicação web, gerando, portanto, uma útil ferramenta para os interessados em se aprofundar e continuar os estudos do tema.
-          </span>
+          <div className="text-start mt-[2vh]">
+            <span className="text-[1.2rem] text-slate-800 md:text-[1.3rem] lg:text-[1.4rem] xl:text-[1.5rem]" aria-label="Conclusão">
+              A partir da manipulação dos dados e consequente geração dos gráficos, é possível observar que, mesmo que o Brasil não disponha de uma cultura armamentista forte como a dos EUA, ele apresenta ainda muito mais registros de óbitos por armas de fogo entre os anos de 1999 e 2019 que o outro país. Portanto, pode-se concluir inicialmente que a facilitação no acesso às armas de fogo a civis não representa o único fator responsável para essa diferença na quantidade de mortes causadas por armas de fogo entre as nações estudadas. Embora as pesquisas, estudos e análises aqui realizadas não tenham resultado em conclusões tão assertivas a respeito do tema, elas permitiram, no entanto, a elaboração de gráficos claros e precisos e a consequente disponibilização desses para visualização pública em uma aplicação web, gerando, portanto, uma útil ferramenta para os interessados em se aprofundar e continuar os estudos do tema.
+            </span>
+          </div>
         </ContentBox>
       </PageStructure>
     </>
