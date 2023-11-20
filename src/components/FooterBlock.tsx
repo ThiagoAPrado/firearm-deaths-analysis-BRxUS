@@ -19,7 +19,7 @@ const FooterBlock = () => {
 
 			<div className="flex flex-col items-start justify-start text-start">
 				<h1 aria-label="Titulo da biografia do grupo" className="text-[1.5rem] font-bold text-white">Sobre nós</h1>
-				<p aria-label="Paragrafo da biografia do grupo" className="text-[1.1rem] text-white items-start justify-start text-start">Somos alunos do atual 4º semestre do curso de Ciência da Computação da Universidade Católica de Santos. Desenvolvemos essa página para fins de execução de Trabalho Discente Efetivo e para divulgação mais elaborada de dados para futuros trabalho de outros interessados</p>
+				<p className="text-[1.1rem] text-white items-start justify-start text-start">Somos alunos do atual 4º semestre do curso de Ciência da Computação da Universidade Católica de Santos. Desenvolvemos essa página para fins de execução de Trabalho Discente Efetivo e para divulgação mais elaborada de dados para futuros trabalho de outros interessados</p>
 			</div>
 		</div>
 	)
