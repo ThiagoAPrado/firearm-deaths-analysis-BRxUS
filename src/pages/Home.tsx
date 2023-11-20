@@ -14,7 +14,7 @@ function Home() {
       <PageStructure >
         <ContentBox>
           <TextBlock title={paragraphTypings.title} paragraph={paragraphTypings.paragraph}>
-            <img className="w-[8rem] my-[2vh]" src="https://raw.githubusercontent.com/ThiagoAPrado/firearm-deaths-analysis-BRxUS/gh-pages/image/brasil_eua.png" alt="Bandeira Brasil e Estados Unidos" />
+            <img aria-label="Imagem bandeiras Estados Unidos e Brasil" className="w-[8rem] my-[2vh]" src="https://raw.githubusercontent.com/ThiagoAPrado/firearm-deaths-analysis-BRxUS/gh-pages/image/brasil_eua.png" alt="Bandeira Brasil e Estados Unidos" />
           </ TextBlock>
         </ContentBox>
         <GenericGraphComponent title="BR x EUA" graphs={frameGraphs.USxBR} altText="Brasil e Estados Unidos " />

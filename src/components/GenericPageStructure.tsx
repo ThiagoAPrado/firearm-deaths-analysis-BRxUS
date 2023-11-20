@@ -39,7 +39,7 @@ const PageStructure = ({ children }: { children: any }) => {
 			<TitleBlock title={titleTypings.title} subTitle={titleTypings.subTitle} />
 			<InterestMenu menus={menus}/>
 			
-			<main id="main">
+			<main id="main" aria-label="Conteúdo principal da página">
 				{children}
 			</main>
 

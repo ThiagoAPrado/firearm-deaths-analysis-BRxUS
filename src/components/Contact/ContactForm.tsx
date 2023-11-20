@@ -4,25 +4,20 @@ import { useState } from "react";
 import { Button, TextField } from "@mui/material";
 
 export function ContactForms() {
-
 	const [loading, setLoading] = useState(false);
 
 	const validateSchema = Yup.object().shape({
-
-		name: Yup.string()
-			.required("Esse campo é obrigatório"),
+		name: Yup.string().required("Esse campo é obrigatório"),
 
 		email: Yup.string()
 			.email("Digite um email valido")
 			.required("Esse campo é obrigatório"),
 
-		body: Yup.string()
-			.required("Esse campo é obrigatório"),
-
+		body: Yup.string().required("Esse campo é obrigatório"),
 	});
 
 	const formik = useFormik({
-		initialValues: { name: "", email: "", body: "", },
+		initialValues: { name: "", email: "", body: "" },
 
 		validationSchema: validateSchema,
 
@@ -38,13 +33,16 @@ export function ContactForms() {
 
 	return (
 		<>
-			<h1 className="text-[1.4rem] font-bold text-slate-800 md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] text-start">Fale Conosco:</h1>
+			<h1 className="text-[1.4rem] font-bold text-slate-800 md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] text-start">
+				Fale Conosco:
+			</h1>
 
 			<form
 				className="flex justify-center justify-items-center flex-col mx-[5vw] gap-[1.5em] my-[5vh]"
 				onSubmit={formik.handleSubmit}
 			>
 				<TextField
+					aria-label="Campo nome de formulário de contatos"
 					focused
 					label={"Nome"}
 					variant="outlined"
@@ -57,6 +55,7 @@ export function ContactForms() {
 				/>
 
 				<TextField
+					aria-label="Campo email de formulário de contatos"
 					focused
 					label={"Email"}
 					variant="outlined"
@@ -69,6 +68,7 @@ export function ContactForms() {
 				/>
 
 				<TextField
+					aria-label="Campo mensagem de formulário de contatos"
 					focused
 					label={"Mensagem"}
 					variant="outlined"
@@ -82,7 +82,11 @@ export function ContactForms() {
 					rows={10}
 				/>
 				<Button disabled={loading} variant="contained" type={"submit"}>
-					{loading ? <p className="font-bold">Carregando...</p> : <p className="font-bold">Enviar</p>}
+					{loading ? (
+						<p className="font-bold">Carregando...</p>
+					) : (
+						<p className="font-bold">Enviar</p>
+					)}
 				</Button>
 			</form>
 		</>
