@@ -33,11 +33,12 @@ const menus: MenuItemInterface[][] = [
 ]
 
 const PageStructure = ({ children }: { children: any }) => {
+
 	return (
 		<>
 			<TitleBlock title={titleTypings.title} subTitle={titleTypings.subTitle} />
-			<InterestMenu menus={menus} />
-
+			<InterestMenu menus={menus}/>
+			
 			<main id="main">
 				{children}
 			</main>
