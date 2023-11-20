@@ -11,8 +11,8 @@ function MeetUs() {
           Somos alunos do atual 4º semestre do curso de Ciência da Computação da Universidade Católica de Santos. Desenvolvemos essa página para fins de execução de Trabalho Discente Efetivo e para divulgação mais elaborada de dados para futuros trabalho de outros interessados.
         </ContentBox>
         <ContentBox>
-          <div className="grid grid-cols-1 2xl:grid-cols-2">
-            {socialCardsTypings.map((e) => <div  className='my-4'><SocialCard socialCard={e} key={e.name + "_socialsCard"}/></div>)}
+          <div>
+            {socialCardsTypings.map((e) => <div><SocialCard socialCard={e} key={e.name + "_socialsCard"}/><hr /></div>)}
           </div>
         </ContentBox>
       </PageStructure>

@@ -10,7 +10,7 @@ const interestMenu = ({ menus }: { menus: MenuItemInterface[][] }) => {
 	const location = useLocation();
 
 	const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
-	const [toggleMenu, setToggleMenu] = useState<boolean>(true);
+	const [toggleMenu, setToggleMenu] = useState<boolean>(false);
 
 	useEffect(() => {
 		const watchResize = () => {
@@ -57,12 +57,12 @@ const interestMenu = ({ menus }: { menus: MenuItemInterface[][] }) => {
 
 			{windowWidth <= 767 &&
 				<>
-					<div className="pl-[calc(5vw-6px)] bg-slate-400">
+					<div className="z-10 sticky top-0 pl-[calc(5vw-6px)] bg-slate-400">
 						<IoMenu size={45} onClick={() => setToggleMenu(prevToggleMenu => !prevToggleMenu)} />
 					</div>
 
 					{toggleMenu &&
-						<div className="bg-gray-300 py-[3vh]">
+						<div className="z-10 sticky top-[45px] bg-gray-300 py-[3vh]">
 							{
 								menus[0].map((e) => {
 									return (

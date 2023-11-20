@@ -4,10 +4,10 @@ const FooterBlock = () => {
 			<div className="flex flex-col items-start justify-start text-start">
 				<h1 className="text-[1.5rem] font-bold text-white">Repositórios do projeto</h1>
 				<ul>
-					<li className="text-[1.2rem] mt-[1.5vh]">ThiagoAPrado/</li>
-					<a className="text-[1.1rem] text-white underline" href="https://github.com/ThiagoAPrado/firearm-deaths-analysis-BRxUS">firearm-deaths-analysis-BRxUS</a>
-					<li className="text-[1.2rem] mt-[1.5vh]">vicEduDev/</li>
-					<a className="text-[1.1rem] text-white underline" href="https://github.com/vicEduDev/firearm-deaths-analysis-BRxUS-image-bank">firearm-deaths-analysis-BRxUS-image-bank</a>
+					<li className="text-[1.2rem] mt-[1.5vh]"><a href="https://github.com/ThiagoAPrado/firearm-deaths-analysis-BRxUS">ThiagoAPrado</a></li>
+					
+					<li className="text-[1.2rem] mt-[1.5vh]"><a href="https://github.com/vicEduDev/firearm-deaths-analysis-BRxUS-image-bank">vicEduDev</a></li>
+					
 				</ul>
 			</div>
 
