@@ -11,12 +11,16 @@ export interface ContextBlockTextInterface {
 
 export interface TitleBlockInterface {
 	title: string;
+    titleAriaLabel: string;
     subTitle: string;
+    subTitleAriaLabel: string;
 }
 
 export interface ParagraphBlockInterface {
 	title: string;
+    titleAriaLabel: string;
     paragraph: string;
+    paragraphAriaLabel: string;
     children: any | undefined | null;
 }
 

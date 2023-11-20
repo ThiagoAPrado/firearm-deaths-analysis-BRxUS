@@ -36,7 +36,7 @@ const PageStructure = ({ children }: { children: any }) => {
 
 	return (
 		<>
-			<TitleBlock title={titleTypings.title} subTitle={titleTypings.subTitle} />
+			<TitleBlock titleAriaLabel={titleTypings.titleAriaLabel} subTitleAriaLabel={titleTypings.subTitleAriaLabel} title={titleTypings.title} subTitle={titleTypings.subTitle} />
 			<InterestMenu menus={menus}/>
 			
 			<main id="main">
