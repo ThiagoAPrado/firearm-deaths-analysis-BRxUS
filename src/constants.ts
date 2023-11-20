@@ -1,1 +1,1 @@
-export const basePath = '' //'/firearm-deaths-analysis-BRxUS/';
+export const basePath = '/firearm-deaths-analysis-BRxUS';
