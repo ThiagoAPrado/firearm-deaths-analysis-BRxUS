@@ -5,16 +5,16 @@ const FooterBlock = () => {
 				<h1 aria-label="Repositórios do projeto" className="text-[1.5rem] font-bold text-white">Repositórios do projeto</h1>
 				<ul>
 					<li aria-label="Repositório do Thiago Prado" className="text-[1.2rem] mt-[1.5vh]"><a href="https://github.com/ThiagoAPrado/firearm-deaths-analysis-BRxUS">ThiagoAPrado</a></li>
-					
+
 					<li aria-label="Repositório do Victor Eduardo" className="text-[1.2rem] mt-[1.5vh]"><a href="https://github.com/vicEduDev/firearm-deaths-analysis-BRxUS-image-bank">vicEduDev</a></li>
-					
+
 				</ul>
 			</div>
 
 			<div className="flex flex-col items-start justify-start text-start gap-[.5vh]">
 				<h1 aria-label="Datasets originais" className="text-[1.5rem] font-bold text-white">Datasets originais</h1>
 				<a aria-label="Dataset Gun deaths by County" className="text-[1.1rem] text-white underline" href="https://data.world/nkrishnaswami/gun-deaths-by-county">Gun deaths by County</a>
-				<a aria-label="Dataset IPEA" className="text-[1.1rem] text-white underline" href="https://www.ipea.gov.br/atlasviolencia/filtros-series/5/bitos-por-armas-de-fogo">IPEA - Óbitos por Armas de Fogo</a>
+				<a aria-label="Dataset IPEA - Óbitos por Armas de Fogo" className="text-[1.1rem] text-white underline" href="https://www.ipea.gov.br/atlasviolencia/filtros-series/5/bitos-por-armas-de-fogo">IPEA - Óbitos por Armas de Fogo</a>
 			</div>
 
 			<div className="flex flex-col items-start justify-start text-start">
