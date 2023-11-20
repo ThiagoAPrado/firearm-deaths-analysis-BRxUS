@@ -14,10 +14,10 @@ function App() {
       <BrowserRouter >
         <Routes>
           <Route path={basePath} element={<Home />} />
-          <Route path={basePath + 'docs'} element={<Docs />} />
-          <Route path={basePath + 'referencias'} element={<References />} />
-          <Route path={basePath + 'contato'} element={<Contact />} />
-          <Route path={basePath + 'sobre'} element={<MeetUs />} />
+          <Route path={basePath + '/docs'} element={<Docs />} />
+          <Route path={basePath + '/referencias'} element={<References />} />
+          <Route path={basePath + '/contato'} element={<Contact />} />
+          <Route path={basePath + '/sobre'} element={<MeetUs />} />
         </Routes>
       </BrowserRouter>
     </>

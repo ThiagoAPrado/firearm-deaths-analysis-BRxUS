@@ -8,7 +8,9 @@ function MeetUs() {
     <>
       <PageStructure>
         <ContentBox>
-          Somos alunos do atual 4º semestre do curso de Ciência da Computação da Universidade Católica de Santos. Desenvolvemos essa página para fins de execução de Trabalho Discente Efetivo e para divulgação mais elaborada de dados para futuros trabalho de outros interessados.
+          <span className="text-[1.4rem]">
+            Somos alunos do atual 4º semestre do curso de Ciência da Computação da Universidade Católica de Santos. Desenvolvemos essa página para fins de execução de Trabalho Discente Efetivo e para divulgação mais elaborada de dados para futuros trabalho de outros interessados.
+          </span>
         </ContentBox>
         <ContentBox>
           <div>

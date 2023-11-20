@@ -32,7 +32,7 @@ const interestMenu = ({ menus }: { menus: MenuItemInterface[][] }) => {
 						{
 							menus[0].map((e) => {
 								return (
-									<button className={`flex items-center px-[2.5vw] py-[1vh] text-[1rem] lg:text-[1.1rem] tracking-wider font-bold rounded-[0_0_.75rem_.75rem] shadow-bo cursor-pointer ${(location.pathname == e.path ? 'bg-red-800 hover:bg-red-800' : 'bg-slate-800 hover:bg-slate-600')} text-white `}
+									<button className={`flex items-center px-[2.5vw] py-[1vh] text-[1rem] lg:text-[1.1rem] tracking-wider font-bold rounded-[0_0_.75rem_.75rem] shadow-bo cursor-pointer ${(location.pathname == (basePath + e.path) ? 'bg-red-800 hover:bg-red-800' : 'bg-slate-800 hover:bg-slate-600')} text-white `}
 										key={"navigate-btn-" + e.title}
 										onClick={() => { navigate(basePath + e.path) }}
 									>{e.title}</button>
@@ -44,7 +44,7 @@ const interestMenu = ({ menus }: { menus: MenuItemInterface[][] }) => {
 						{
 							menus[1].map((e) => {
 								return (
-									<button className={`flex justify-center items-center px-[2.5vw] py-[1vh] text-[1rem] lg:text-[1.1rem] tracking-wider font-bold rounded-[0_0_.75rem_.75rem] shadow-bo cursor-pointer ${(location.pathname == e.path ? 'bg-red-800 hover:bg-red-800' : 'bg-slate-800 hover:bg-slate-600')} text-white `}
+									<button className={`flex justify-center items-center px-[2.5vw] py-[1vh] text-[1rem] lg:text-[1.1rem] tracking-wider font-bold rounded-[0_0_.75rem_.75rem] shadow-bo cursor-pointer ${(location.pathname == (basePath + e.path) ? 'bg-red-800 hover:bg-red-800' : 'bg-slate-800 hover:bg-slate-600')} text-white `}
 										key={"navigate-btn-" + e.title}
 										onClick={() => { navigate(basePath + e.path) }}
 									>{e.title}</button>

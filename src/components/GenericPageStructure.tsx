@@ -9,25 +9,25 @@ const menus: MenuItemInterface[][] = [
 	[
 		{
 			title: "HOME",
-			path: ''
+			path: '/'
 		},
 		{
 			title: "DOCS",
-			path: 'docs'
+			path: '/docs'
 		},
 		{
 			title: "REFERÊNCIAS",
-			path: 'referencias'
+			path: '/referencias'
 		}
 	],
 	[
 		{
 			title: "CONTATO",
-			path: 'contato'
+			path: '/contato'
 		},
 		{
 			title: "SOBRE NÓS",
-			path: 'sobre'
+			path: '/sobre'
 		}
 	]
 ]
